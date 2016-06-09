@@ -1,8 +1,8 @@
 import org.apache.log4j.DailyRollingFileAppender
 
 appName=federationregistry
-grails.serverURL = "https://example.edu.au/federationregistry"
-grails.mail.default.from="fr-noreply@example.edu.au"
+grails.serverURL = "https://example.edu.hk/federationregistry"
+grails.mail.default.from="fr-noreply@example.edu.hk"
 
 // Environment configuration
 environments {

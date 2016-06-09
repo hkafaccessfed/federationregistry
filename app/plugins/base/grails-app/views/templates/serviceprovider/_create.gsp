@@ -141,7 +141,7 @@
         <div class="control-group">
           <label class="control-label" for="hostname"><g:message encodeAs="HTML" code="label.url" /></label>
           <div class="controls">
-            <g:textField name="hostname" id="hostname" class="url span4" value="${hostname}" placeholder="https://sp.example.edu.au"/>
+            <g:textField name="hostname" id="hostname" class="url span4" value="${hostname}" placeholder="https://sp.example.edu.hk"/>
             <fr:tooltip code='help.fr.serviceprovider.hostname' />
           </div>
         </div>

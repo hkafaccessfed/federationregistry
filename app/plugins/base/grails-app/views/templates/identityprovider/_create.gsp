@@ -128,7 +128,7 @@
           <div class="control-group">
             <label class="control-label" for="hostname"><g:message encodeAs="HTML" code="label.url" /></label>
             <div class="controls">
-              <g:textField name="hostname" class="url span4" value="${hostname}" placeholder="https://idp.example.edu.au" />
+              <g:textField name="hostname" class="url span4" value="${hostname}" placeholder="https://idp.example.edu.hk" />
               <fr:tooltip code='help.fr.identityprovider.hostname' />
             </div>
           </div>
@@ -221,7 +221,7 @@
         <div class="control-group">
             <label class="control-label" for="scope"><g:message encodeAs="HTML" code="label.scope" /></label>
             <div class="controls">
-              <g:textField name="idp.scope" class="required span4" value="${scope}" placeholder="example.edu.au"/>
+              <g:textField name="idp.scope" class="required span4" value="${scope}" placeholder="example.edu.hk"/>
               <fr:tooltip code='help.fr.identityprovider.scope' />
             </div>
         </div>
