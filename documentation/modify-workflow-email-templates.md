@@ -5,7 +5,7 @@
 
 ## Server to edit
 
-The HKAF federation registry is currently deployed on the server `
+The HKAF federation registry is currently deployed on the server `afed2.hkaf.edu.hk`
 
 ### Software
 
