@@ -18,13 +18,12 @@ if(!savedEDS) {
 
 // AAF supported organisation types
 def federationOrgTypes = [
-  [name:'university', displayName:'Australian University', description:'Australian University', discoveryServiceCategory:true],
+  [name:'university', displayName:'Hong Kong University', description:'Hong Kong University', discoveryServiceCategory:true],
   [name:'hospital', displayName:'Hospital', description:'Hospital', discoveryServiceCategory:true],
   [name:'library', displayName:'Library', description:'Library', discoveryServiceCategory:true],
   [name:'vho', displayName:'VHO', description:'Virtual Home Organization', discoveryServiceCategory:true],
   [name:'others', displayName:'Others', description:'Others', discoveryServiceCategory:true],
   [name:'eresearch', displayName:'eResearch', description:'eResearch Organisations', discoveryServiceCategory:true],
-  [name:'nzuniversity', displayName:'New Zealan Uuniversity', description:'New Zealand University', discoveryServiceCategory:true],
   [name:'standaloneaa', displayName:'Standalone AA', description:'Standalone AA only', discoveryServiceCategory:false]
 ] as List
 federationOrgTypes.each {
@@ -107,6 +106,6 @@ federationMonitors.each {
   }
 }
 
-println "Completed creating base AAF environment"
+println "Completed creating base HKAF environment"
 true
 

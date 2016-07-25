@@ -46,7 +46,7 @@ class Organization  {	// Also called a participant in AAF land
 		description(nullable:true, blank: false, maxSize:2000)
 		logoURL(nullable:true)
 		lang(nullable: false, blank: false)
-		url(nullable: false, blank: false, url: true)
+		url(nullable: false, blank: false)
 		extensions(nullable: true, blank: true)
 		types(nullable:true)
 		dateCreated(nullable:true)

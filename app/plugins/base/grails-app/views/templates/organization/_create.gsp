@@ -73,7 +73,7 @@
       <div class="control-group">
       <label class="control-label" for="organization.name"><g:message encodeAs="HTML" code="templates.fr.organization.label.name" /></label>
         <div class="controls">
-          <g:textField name="organization.name" class="required span4" value="${organization?.name}" placeholder="example.edu.au" />
+          <g:textField name="organization.name" class="required span4" value="${organization?.name}" placeholder="example.edu.hk" />
           <fr:tooltip code='help.fr.organization.name' />
         </div>
       </div>
@@ -89,7 +89,7 @@
       <div class="control-group">
       <label class="control-label" for="organization.url"><g:message encodeAs="HTML" code="label.organizationurl" /></label>
         <div class="controls">
-          <g:textField name="organization.url" class="required url span4" value="${organization?.url}" placeholder="http://www.example.edu.au"/>
+          <g:textField name="organization.url" class="required url span4" value="${organization?.url}" placeholder="http://www.example.edu.hk"/>
           <fr:tooltip code='help.fr.organization.url' />
         </div>
       </div>
